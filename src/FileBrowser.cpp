@@ -72,6 +72,7 @@ class FileBrowserApp : public ImGuiApplication
 {
 public:
     FileBrowserApp();
+    virtual ~FileBrowserApp() {}
     virtual void presetInternal() override;
     // return if need to exit the application
     virtual bool renderUI() override;
